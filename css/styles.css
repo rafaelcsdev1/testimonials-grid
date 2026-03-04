@@ -28,6 +28,10 @@ article {
     background-color: hsl(263, 55%, 52%);
     color: hsl(214, 17%, 92%);
     grid-area: principal;
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 60px;
+    background-size: 140px;
 }
 
 .midTop {
@@ -67,12 +71,13 @@ article {
 
 h6 {
     font-size: 0.8rem;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .status {
     font-size: 0.8rem;
     margin-top: 0.30rem;
+    font-weight: 500;
 }
 
 .autor {
@@ -103,4 +108,14 @@ h6 {
 .text-secondary {
     font-size: 0.9rem;
     line-height: 1.4rem;
+    font-weight: 500;
+}
+
+.principal .text-primary {
+    color: hsl(0, 0%, 100%);
+}
+
+.site-footer {
+    margin-bottom: 1.5rem;
+    color: hsl(224, 10%, 45%);
 }
